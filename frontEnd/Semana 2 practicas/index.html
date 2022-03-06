@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pasteleria Launchx</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-Acercade">Acerca de</a>
+                <a href="#" id="btn-Menu">Menu</a>
+                <a href="#" id="btn-Ordenar">Ordenar</a>
+                <a href="#" id="btn-Ubicacion">Ubicacion</a>
+            </nav>
+
+            <div class="textos">
+                <h1 class="nombre"> Pasteleria <span> LaunchX </span></h1>
+                <h3>Pasteles espacialmente para ti</h3>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/pastel.avif" alt="foto de un pastel">
+                    <article>
+                        <h3>Acerca de</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quas obcaecati earum magnam perspiciati.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu" >
+            <div class="contenedor">
+                <h3 class="titulo" id="platillo">Menu</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu-2">
+
+                        <article>
+                            <p class="categoria">pasteles</p>
+                            <div class="platillo">
+                                <p class="nombre">Tres leches</p>
+                                <p class="precio">$100</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Zanahoria</p>
+                                <p class="precio">$120</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Red Velvet  </p>
+                                <p class="precio">$150</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+
+                            <p class="categoria">Adornos</p>
+                            <div class="platillo">
+                                <p class="nombre">Velitas</p>
+                                <p class="precio">$100</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Letrero "Feliz Cumpleaños"</p>
+                                <p class="precio">$120</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre"> flores </p>
+                                <p class="precio">$150</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="categoria">rellenos</p>
+                            <div class="platillo">
+                                <p class="nombre">Mermelada de fresa</p>
+                                <p class="precio">$100</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Mermelada de durazno/p>
+                                <p class="precio">$120</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Chocolate </p>
+                                <p class="precio">$150</p>
+                                <p class="descripcion">lalalalalalala</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pedidos" id="pedidos">
+            <div class="contenedor">
+                <form action="">
+                    <p>Nombre</p>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <p>correo</p>
+                    <input type="email" name="email" >
+                    <p>Descripcion del pedido</p>
+                    <input type="text" name="descripcion-pedido" required>
+                    <p>forma de pago</p>
+                    <input type="radio" id="tarjeta" name="forma-pago" value="tarjeta">
+                    <label for="tarjeta">Tarjeta</label>
+                    <input type="radio" id="efectivo" name="forma-pago" value="efectivo">
+                    <label for="efectivo">Efectivo</label>
+                    <p>fecha de entrega del pedido</p>
+                    <input type="date" id="fecha" name="fecha">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+        </section>
+
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>
